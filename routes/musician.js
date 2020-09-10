@@ -11,7 +11,7 @@ router.get('/health', (req, res) => {
 
 // healthcheck
 router.get('/paul', (req, res) => {
-  res.status('200').send("Status: Cloud technology Exeprts!");
+  res.status('200').send("Status: Cloud Technology Exeprts!");
 });
 
 
