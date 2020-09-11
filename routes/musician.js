@@ -11,7 +11,7 @@ router.get('/health', (req, res) => {
 
 // healthcheck
 router.get('/paul', (req, res) => {
-  res.status('200').send("Status: Cloud Technology Exeprts!");
+  res.status('200').send("Status: Pascale Dasset-Cloud Technology Exeprts!");
 });
 
 
