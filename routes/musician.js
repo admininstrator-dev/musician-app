@@ -10,8 +10,8 @@ router.get('/health', (req, res) => {
 });
 
 // healthcheck
-router.get('/paul', (req, res) => {
-  res.status('200').send("Status: Pascale Dasset-Cloud Technology Exeprts!");
+router.get('/election', (req, res) => {
+  res.status('200').send("Status: Who won!");
 });
 
 
