@@ -11,7 +11,7 @@ router.get('/health', (req, res) => {
 
 // healthcheck
 router.get('/election', (req, res) => {
-  res.status('200').send("Status: Who won!");
+  res.status('200').send("Status: Dallas and Houston are tied said the reporter!");
 });
 
 
